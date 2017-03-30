@@ -1,5 +1,3 @@
-# The Köster lab at University of Duisburg-Essen
-
 The Köster lab is focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
 It will **begin its work in August 2017**.
 
