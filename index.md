@@ -5,9 +5,10 @@ It will **begin its work in August 2017**.
 
 * [PROSIC](https://prosic.github.io): A caller for somatic variants in tumor normal pairs that leverages a latent variable model to improve the sensitivity and control the false discovery rate. Available on [Bioconda](https://bioconda.github.io/recipes/prosic/README.html).
 * [MERFISHtools](https://merfishtools.github.io): A Bayesian model for single-cell transcript (differential) expression analysis on MERFISH data. The model allows to overcome systematic biases occurring with MERFISH and provides measures of uncertainty and control of the false discovery rate in a strictly Bayesian way. MERFISHtools is a corresponding command line client and analysis library written in Rust and Python. Available on [Bioconda](https://bioconda.github.io/recipes/merfishtools/README.html).
-* [Snakemake](https://snakemake.bitbucket.io): Snakemake is a workflow engine and language. It aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern domain specific specification language (DSL) in python style. Available on [Bioconda](https://bioconda.github.io/recipes/snakemake/README.html).
-* [Rust-Bio](https://rust-bio.github.io): A bioinformatics library written in the [Rust language](https://rust-lang.org). The implementation provides state of the art solutions for common tasks in bioinformatics, focusing on stability by using comprehensive unit tests and continuous integration.
 * [Bioconda](https://bioconda.github.io): A distribution of bioinformatics software realized as a channel for the versatile package manager Conda. It is a multinational project with over 160 developers and over 2000 software packages.
+* [Rust-Bio](https://rust-bio.github.io): A bioinformatics library written in the [Rust language](https://rust-lang.org). The implementation provides state of the art solutions for common tasks in bioinformatics, focusing on stability by using comprehensive unit tests and continuous integration.
+* [Snakemake](https://snakemake.bitbucket.io): Snakemake is a workflow engine and language. It aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern domain specific specification language (DSL) in python style. Available on [Bioconda](https://bioconda.github.io/recipes/snakemake/README.html).
+
 
 
 # Group leader
