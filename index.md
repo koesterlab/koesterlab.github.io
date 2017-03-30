@@ -1,7 +1,3 @@
----
-tagline: Institute of Human Genetics | University of Duisburg-Essen
----
-
 The Köster lab is focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
 It will **begin its work in August 2017**.
 
@@ -32,3 +28,12 @@ Snakemake is a workflow engine and language. It aims to reduce the complexity of
 # Group leader
 
 [Johannes Köster](https://johanneskoester.bitbucket.io)
+
+
+# Location
+Genome Informatics
+Institute of Human Genetics
+University of Duisburg-Essen
+University Hospital Essen
+Virchowstr. 183
+45147 Essen
