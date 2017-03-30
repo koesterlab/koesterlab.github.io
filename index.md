@@ -31,14 +31,9 @@ Snakemake is a workflow engine and language. It aims to reduce the complexity of
 
 
 # Location
-Genome Informatics
-
-Institute of Human Genetics
-
-University of Duisburg-Essen
-
-University Hospital Essen
-
-Virchowstr. 183
-
+Genome Informatics  
+Institute of Human Genetics  
+University of Duisburg-Essen  
+University Hospital Essen  
+Virchowstr. 183  
 45147 Essen
