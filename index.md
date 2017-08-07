@@ -1,5 +1,4 @@
 The Köster lab is focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
-It will **begin its work in August 2017**.
 
 # Projects
 
@@ -13,7 +12,7 @@ A Bayesian model for single-cell transcript (differential) expression analysis o
 
 ## [Bioconda](https://bioconda.github.io)
 
-A distribution of bioinformatics software realized as a channel for the versatile package manager Conda. It is a multinational project with over 160 developers and over 2000 software packages.
+A distribution of bioinformatics software realized as a channel for the versatile package manager Conda. It is a multinational project with over 200 developers and over 2000 software packages.
 
 ## [Rust-Bio](https://rust-bio.github.io)
 
