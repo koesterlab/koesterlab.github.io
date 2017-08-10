@@ -1,4 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-title: Algorithms for reproducible bioinformatics
-theme: jekyll-theme-cayman
-show_downloads: false
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Algorithms for reproducible bioinformatics
+tagline:          'The Köster lab'
+description:      ''
+url:              https://koesterlab.github.io
+
+author:
+  name:           'Johannes Köster'
+  url:            https://koesterlab.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/koesterlab

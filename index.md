@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 The Köster lab is focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
 
 
