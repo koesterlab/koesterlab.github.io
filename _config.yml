@@ -5,8 +5,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Algorithms for reproducible bioinformatics
-tagline:          'The Köster lab'
+tagline:          Algorithms for reproducible bioinformatics
+title:            The Köster lab
 description:      ''
 url:              https://koesterlab.github.io
 
