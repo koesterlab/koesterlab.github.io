@@ -18,11 +18,11 @@ The Köster lab is focused on reproducible data analysis, algorithm engineering 
 
 ## [Snakemake](https://snakemake.bitbucket.io)
 
-Snakemake is a workflow engine and language. It aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern domain specific specification language (DSL) in python style. Available on [Bioconda](https://bioconda.github.io/recipes/snakemake/README.html).
+Snakemake is a popular workflow management system. It aims to reduce the complexity of creating data analyses by providing a fast and comfortable execution environment, together with a clean and modern specification language in python style. Available on [Bioconda](https://bioconda.github.io/recipes/snakemake/README.html).
 
 ## [Bioconda](https://bioconda.github.io)
 
-A distribution of bioinformatics software realized as a channel for the versatile package manager Conda. It is a multinational project with over 200 developers and over 2000 software packages.
+Bioinformatics software installation can be painful and troublesome. The Bioconda project aims to provide a simple to use distribution of bioinformatics software realized as a channel for the versatile package manager Conda. Bioconda is a multinational project with over 200 developers and over 2000 software packages. The approach has been adopted by popular workflow management systems like [Snakemake](https://snakemake.bitbucket.io), [Galaxy](https://galaxyproject.org/), and [bcbio-nextgen](https://bcbio-nextgen.readthedocs.io).
 
 ## [PROSIC](https://prosic.github.io)
 
