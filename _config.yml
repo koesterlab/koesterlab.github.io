@@ -1,13 +1,30 @@
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
 # Setup
-tagline:          Algorithms for reproducible bioinformatics
-title:            The Köster lab
-description:      ''
-url:              https://koesterlab.github.io
+title:               The Köster lab
+tagline:             Algorithms for reproducible bioinformatics
+url:                 https://koesterlab.github.io
+paginate:            1
+baseurl:             ""
 
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
 author:
-  name:           'Johannes Köster'
-  url:            https://koesterlab.github.io
+  name:              Johannes Köster
+  url:               https://twitter.com/johanneskoester
+  email:             johannes.koester@protonmail.com
 
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/koesterlab
