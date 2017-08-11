@@ -37,11 +37,12 @@ A bioinformatics library written in the [Rust language](https://rust-lang.org). 
 This project aims to model protein networks along with dependencies between interactions like allosteric effects, steric hindrance and competition on binding domains. This allows us to improve the accuracy of protein complex prediction and to simulate the effects of perturbations like knockout or over-expression.
 
 
-# Location
+# Address
 Genome Informatics  
 Institute of Human Genetics  
 University of Duisburg-Essen  
 University Hospital Essen  
-Virchowstr. 183  
-45147 Essen
-Germany
+Virchowstr. 183 (office) | Hufelandstr. 55 (postal)  
+45147 Essen  
+Germany  
+[[Google Maps]](https://goo.gl/maps/hz5D7dc2tD32)
