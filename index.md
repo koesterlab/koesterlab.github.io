@@ -1,5 +1,6 @@
 The Köster lab is focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
 
+----
 
 # Members
 
@@ -7,7 +8,7 @@ The Köster lab is focused on reproducible data analysis, algorithm engineering 
 * [Bianca Stöcker](http://genomeinformatics.uni-due.de/people/bianca-stocker)
 * Jan Forster
 
-
+----
 
 # Projects
 
@@ -36,6 +37,7 @@ A bioinformatics library written in the [Rust language](https://rust-lang.org). 
 
 This project aims to model protein networks along with dependencies between interactions like allosteric effects, steric hindrance and competition on binding domains. This allows us to improve the accuracy of protein complex prediction and to simulate the effects of perturbations like knockout or over-expression.
 
+----
 
 # Address
 Genome Informatics  
