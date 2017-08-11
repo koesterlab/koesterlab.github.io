@@ -8,10 +8,16 @@
   margin-bottom: 3rem;
 }
 
+.masthead-title@before {
+  display: block;
+  content: url("public/uk-essen-logo.png");
+}
+
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  font-size: 200%;
 
   a {
     color: #505050;
