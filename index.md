@@ -1,12 +1,7 @@
----
-layout: default
----
-
-
 The Köster lab is focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
 
 
-# Members
+# Group members
 
 * [Johannes Köster](https://johanneskoester.bitbucket.io) (group leader)
 * [Bianca Stöcker](http://genomeinformatics.uni-due.de/people/bianca-stocker)
@@ -16,30 +11,30 @@ The Köster lab is focused on reproducible data analysis, algorithm engineering 
 
 # Projects
 
-## [Snakemake](https://snakemake.bitbucket.io)
+## Snakemake
 
-Snakemake is a popular workflow management system. It aims to reduce the complexity of creating data analyses by providing a fast and comfortable execution environment, together with a clean and modern specification language in python style. Available on [Bioconda](https://bioconda.github.io/recipes/snakemake/README.html).
+Snakemake is a workflow engine and language. It aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern domain specific specification language (DSL) in python style. [[Details]](https://snakemake.bitbucket.io)
 
-## [Bioconda](https://bioconda.github.io)
+## Bioconda
 
-Bioinformatics software installation can be painful and troublesome. The Bioconda project aims to provide a simple to use distribution of bioinformatics software realized as a channel for the versatile package manager Conda. Bioconda is a multinational project with over 200 developers and over 2000 software packages. The approach has been adopted by popular workflow management systems like [Snakemake](https://snakemake.bitbucket.io), [Galaxy](https://galaxyproject.org/), and [bcbio-nextgen](https://bcbio-nextgen.readthedocs.io).
+A distribution of bioinformatics software realized as a channel for the versatile package manager Conda. It is a multinational project with over 200 developers and over 2000 software packages. [[Details]](https://bioconda.github.io)
 
-## [PROSIC](https://prosic.github.io)
+## PROSIC
 
-A caller for somatic variants in tumor normal pairs that leverages a latent variable model to improve the sensitivity and control the false discovery rate. Available on [Bioconda](https://bioconda.github.io/recipes/prosic/README.html).
+A caller for somatic variants in tumor normal pairs that leverages a latent variable model to improve the sensitivity and control the false discovery rate. [[Details]](https://prosic.github.io)
 
-## [MERFISHtools](https://merfishtools.github.io)
+## MERFISHtools
 
-A Bayesian model for single-cell transcript (differential) expression analysis on MERFISH data. The model allows to overcome systematic biases occurring with MERFISH and provides measures of uncertainty and control of the false discovery rate in a strictly Bayesian way. MERFISHtools is a corresponding command line client and analysis library written in Rust and Python. Available on [Bioconda](https://bioconda.github.io/recipes/merfishtools/README.html).
+A Bayesian model for single-cell transcript (differential) expression analysis on MERFISH data. The model allows to overcome systematic biases occurring with MERFISH and provides measures of uncertainty and control of the false discovery rate in a strictly Bayesian way. MERFISHtools is a corresponding command line client and analysis library written in Rust and Python. [[Details]](https://merfishtools.github.io)
 
-## [Rust-Bio](https://rust-bio.github.io)
+## Rust-Bio
 
-A bioinformatics library written in the [Rust language](https://rust-lang.org). The implementation provides state of the art solutions for common tasks in bioinformatics, focusing on stability by using comprehensive unit tests and continuous integration.
+A bioinformatics library written in the [Rust language](https://rust-lang.org). The implementation provides state of the art solutions for common tasks in bioinformatics, focusing on stability by using comprehensive unit tests and continuous integration. [[Details]](https://rust-bio.github.io)
 
 
 ## Protein Hypernetworks
 
-This project aims to model protein networks along with dependencies between interactions like allosteric effects, steric hindrance and competition on binding domains. This allows us to improve the accuracy of protein complex prediction and to simulate the effects of perturbations like knockout or overexpression.
+This project aims to model protein networks along with dependencies between interactions like allosteric effects, steric hindrance and competition on binding domains. This allows us to improve the accuracy of protein complex prediction and to simulate the effects of perturbations like knockout or over-expression.
 
 
 # Location
