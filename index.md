@@ -1,7 +1,7 @@
 The Köster lab is focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
 
 
-# Group members
+# Members
 
 * [Johannes Köster](https://johanneskoester.bitbucket.io) (group leader)
 * [Bianca Stöcker](http://genomeinformatics.uni-due.de/people/bianca-stocker)
