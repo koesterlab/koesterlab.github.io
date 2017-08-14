@@ -14,7 +14,7 @@ The Köster lab is focused on reproducible data analysis, algorithm engineering 
 
 ## Snakemake
 
-Snakemake is a workflow engine and language. It aims to reduce the complexity of creating workflows by providing a fast and comfortable execution environment, together with a clean and modern domain specific specification language (DSL) in python style. [[Details]](https://snakemake.bitbucket.io)
+Snakemake is a popular workflow management system. Snakemake reduces the complexity of formalizing and executing data analyses by providing a fast and comfortable execution environment, together with a clean and modern specification language (DSL) in python style. Snakemake workflows scale from workstations to compute servers, clusters and the cloud without the need to adjust the workflow definition. [[Details]](https://snakemake.bitbucket.io)
 
 ## Bioconda
 
