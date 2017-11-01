@@ -43,14 +43,14 @@ This project aims to model protein networks along with dependencies between inte
 
 # Contact and Venue
 
-Algorithms for reproducible bioinformatics
-Genome Informatics
-Institute of Human Genetics
-University of Duisburg-Essen  
-University Hospital Essen
-Virchowstr. 183 (office) | Hufelandstr. 55 (postal)
-45147 Essen
-Germany
+Algorithms for reproducible bioinformatics  
+Genome Informatics  
+Institute of Human Genetics  
+University of Duisburg-Essen   
+University Hospital Essen  
+Virchowstr. 183 (office) | Hufelandstr. 55 (postal)  
+45147 Essen  
+Germany  
 [[Google Maps]](https://goo.gl/maps/hz5D7dc2tD32)
 
-johannes.koester@uni-due.de
+[[johannes.koester@uni-due.de]](mailto:johannes.koester@uni-due.de)
