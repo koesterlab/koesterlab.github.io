@@ -16,11 +16,11 @@ The Köster lab is focused on reproducible data analysis, algorithm engineering 
 
 ## Snakemake
 
-Snakemake is a popular workflow management system. Snakemake reduces the complexity of formalizing and executing data analyses by providing a fast and comfortable execution environment, together with a clean and modern [Python](https://www.python.org)-based specification language. Snakemake workflows scale from workstations to compute servers, clusters and the cloud without the need to adjust the workflow definition. [[Details]](https://snakemake.bitbucket.io)
+Snakemake is a popular workflow management system. Snakemake reduces the complexity of formalizing and executing data analyses by providing a fast and comfortable execution environment, together with a clean and modern [Python](https://www.python.org)-based specification language. Snakemake workflows scale from workstations to compute servers, clusters, the grid and the cloud without the need to adjust the workflow definition. [[Details]](https://snakemake.bitbucket.io)
 
 ## Bioconda
 
-A distribution of bioinformatics software realized as a channel for the versatile package manager Conda. It is a multinational project with over 200 developers and over 2000 software packages. [[Details]](https://bioconda.github.io)
+A distribution of bioinformatics software realized as a channel for the versatile package manager Conda. It is a multinational project with hundreds of developers and thousands of software packages. [[Details]](https://bioconda.github.io)
 
 ## PROSIC
 
