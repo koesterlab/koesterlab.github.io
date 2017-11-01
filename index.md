@@ -1,3 +1,5 @@
+[![Twitter Follow](https://img.shields.io/twitter/follow/johanneskoester.svg?style=social&label=Follow)](https://twitter.com/johanneskoester)
+
 The Köster lab is focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
 
 ----
@@ -39,12 +41,16 @@ This project aims to model protein networks along with dependencies between inte
 
 ----
 
-# Address
-Genome Informatics  
-Institute of Human Genetics  
+# Contact and Venue
+
+Algorithms for reproducible bioinformatics
+Genome Informatics
+Institute of Human Genetics
 University of Duisburg-Essen  
-University Hospital Essen  
-Virchowstr. 183 (office) | Hufelandstr. 55 (postal)  
-45147 Essen  
-Germany  
+University Hospital Essen
+Virchowstr. 183 (office) | Hufelandstr. 55 (postal)
+45147 Essen
+Germany
 [[Google Maps]](https://goo.gl/maps/hz5D7dc2tD32)
+
+johannes.koester@uni-due.de
