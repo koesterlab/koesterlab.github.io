@@ -23,6 +23,7 @@
         <li class="active"><a href="#about">about us</a></li>
         <li><a href="#research">research</a></li>
         <li><a href="#contact">contact</a></li>
+        <li><a href="#teaching">teaching</a></li>
 
         <li><a href="https://www.uni-due.de/en" style="color: #1da1f2; font-weight: bold">University of Duisburg-Essen</a></li>
         <li><a href="https://www.uk-essen.de/index.php?id=2477&L=1" style="color: #6cc644; font-weight: bold">University Hospital Essen</a></li>
@@ -33,7 +34,7 @@
 <div class="container">
 <section id="about">
 <div>
-    The Köster lab is located at the Institute of Human Genetics, University Hospital Essen, University of Duisburg-Essen. 
+    The Köster lab is located at the Institute of Human Genetics, University Hospital Essen, University of Duisburg-Essen.
     We are focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
 
     <table class="table">
@@ -59,22 +60,19 @@
         </tr>
       </tbody>
     </table>
+
+    <h3>News</h3>
+    <table class="table">
+    <tr>
+      <th>Date</th>
+      <th>News</th>
+    </tr>
+    <tr>
+      <td>2017-11-03</th>
+      <td>The Bioconda project that has been founded by Johannes Köster in 2015 has been acknowledged by Nature. Nature technology editor Jeffrey Perkel has blogged about it <a href="http://blogs.nature.com/naturejobs/2017/11/03/techblog-bioconda-promises-to-ease-bioinformatics-software-installation-woes/">here</a>.</td>
+    </tr>
+    </table>
 </div>
-</section>
-
-
-<section id="news">
-<h3>News</h3>
-<table class="table">
-<tr>
-  <th>Date</th>
-  <th>News</th>
-</tr>
-<tr>
-  <td>2017-11-03</th>
-  <td>The Bioconda project that has been founded by Johannes Köster in 2015 has been acknowledged by Nature. Nature technology editor Jeffrey Perkel has blogged about it <a href="http://blogs.nature.com/naturejobs/2017/11/03/techblog-bioconda-promises-to-ease-bioinformatics-software-installation-woes/">here</a>.</td>
-</tr>
-</table>
 </section>
 
 <section id="research">
@@ -146,6 +144,59 @@ focusing on stability by using comprehensive unit tests and continuous integrati
 </tbody>
 </table>
 </section>
+
+<section id="teaching">
+<h3>Teaching</h3>
+  <section id="fp-rust-2018">
+    <h4>Entwicklung einer Rust-Bibliothek am Beispiel von Succinct Trees</h4>
+      <h5></h5>
+      <table class="table">
+        <tbody>
+          <tr><th>Art</th><td>Fachprojekt</td></tr>
+          <tr><th>Semester</th><td>SS 2018</td></tr>
+          <tr><th>Ort</th><td>TU Dortmund</td></tr>
+          <tr><th>Kontakt</th><td><a href="mailto:johannes.koester@uni-due.de">johannes.koester@uni-due.de</a></td></tr>
+        </tbody>
+      </table>
+      <p>
+        Die Programmiersprache <a href="https://www.rust-lang.org">Rust</a> erfreut sich
+        in den letzten Jahren wachsender Beliebtheit. Neben tausenden
+        Open-Source-Projekten erfolgt die derzeit stattfindende schrittweise
+        Reimplementierung des Firefox-Browsers durch die Mozilla-Foundation in Rust. Des
+        weiteren wurde Rust zwei Jahre in Folge zur <a
+        href="https://insights.stackoverflow.com/survey/2017">"most loved programming
+        language"</a> auf Stack Overflow gewählt. Ein Grund für diese Beliebtheit ist
+        der Compiler von Rust, der es erlaubt Thread- und Speichersicherheit zur
+        Kompilierzeit zu garantieren ohne Geschwindigkeitseinbußen hinnehmen zu müssen.
+        Dies ist realisiert indem Speicherallokationen und -zugriffe einem neuartigen
+        Konzept von "Ownership" und "Borrowing" unterworfen werden.
+      </p>
+
+      <p>
+        Ziel des Fachprojekts ist, mittels Rust eine robuste und schnelle
+        Implementierung von <a
+        href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.156.271&rep=rep1&type=pdf">Succinct
+        Trees</a> als Programmierbibliothek zu realisieren. Durch die Verwendung von
+        Bitvektor-Techniken (Rank/Select) ermöglichen Succinct Trees die Repräsentation
+        von Bäumen mit n Knoten in 2n + o(n) Bits anstelle von O(n log n) Bits.
+        Des weiteren können diverse Baum-Operationen in konstanter Zeit ausgeführt
+        werden. Eine erfolgreiche Implementierung besäße zahlreiche
+        Anwendungsmöglichkeiten, insbesondere in Fällen wo eine herkömmliche
+        Baumrepräsentation nicht effizient genug oder zu groß wäre.
+      </p>
+
+      <p>
+        Es existieren mehrere alternative Repräsentationen von succinct trees, die je nach
+        Operation unterschiedliche Stärken und Schwächen haben. Die Aufgabe der
+        Studenten ist, mindestens eine Repräsentation zu implementieren. Dabei wird zum
+        einen ein Einblick in ein neues theoretisches Feld, zum anderen in eine
+        vielversprechende neue Programmiersprache gewonnen. Des weiteren hat sich
+        gezeigt, dass die Beschäftigung mit den Konzepten von Rust hilft, ein besseres
+        Verständnis für wichtige technische Aspekte der Programmierung zu entwickeln.
+      </p>
+  </section>
+</section>
+
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
