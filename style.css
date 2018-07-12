@@ -7,7 +7,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .container section {
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
 }
 
 h4 {
@@ -66,4 +66,12 @@ a:hover {
     .navbar-header {
         float:none;
     }
+}
+
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -75px;
+  height: 75px;
+  visibility: hidden;
 }
