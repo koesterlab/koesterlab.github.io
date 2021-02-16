@@ -1,343 +1,473 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <title>The Köster lab: Algorithms for reproducible bioinformatics</title>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
-    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>The Köster lab: Algorithms for reproducible bioinformatics</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+  <link type="text/css" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="style.css">
 </head>
+
 <body data-spy="scroll" data-target="#header">
-<div id="header" class="navbar-fixed-top navbar navbar-default navbar-inverse" role="navigation">
+  <div id="header" class="navbar-fixed-top navbar navbar-default navbar-inverse" role="navigation">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        </button>
-        <a href="#" class="navbar-brand">Algorithms for reproducible bioinformatics</a>
+      </button>
+      <a href="#" class="navbar-brand">Algorithms for reproducible bioinformatics</a>
     </div>
     <div class="collapse navbar-collapse">
-    <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#about">about us</a></li>
         <li><a href="#research">research</a></li>
         <li><a href="#contact">contact</a></li>
         <li><a href="#teaching">teaching</a></li>
-	<li><a href="#misc">miscellaneous</a></li>
+        <li><a href="#misc">miscellaneous</a></li>
 
-        <li><a href="https://www.uni-due.de/en" style="color: #1da1f2; font-weight: bold">University of Duisburg-Essen</a></li>
-        <li><a href="https://www.uk-essen.de/index.php?id=2477&L=1" style="color: #6cc644; font-weight: bold">University Hospital Essen</a></li>
-	<li><a href="https://wggc.de" style="color: rgb(163, 0, 0); font-weight: bold">West German Genome Center</a></li>
-    </ul>
+        <li><a href="https://www.uni-due.de/en" style="color: #1da1f2; font-weight: bold">University of
+            Duisburg-Essen</a></li>
+        <li><a href="https://www.uk-essen.de/index.php?id=2477&L=1" style="color: #6cc644; font-weight: bold">University
+            Hospital Essen</a></li>
+        <li><a href="https://wggc.de" style="color: rgb(163, 0, 0); font-weight: bold">West German Genome Center</a>
+        </li>
+      </ul>
     </div>
-</div>
+  </div>
 
-<div class="container">
-<section id="about">
-<div>
-    The Köster lab is located at the Institute of Human Genetics, University Hospital Essen, University of Duisburg-Essen.
-    We are focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
+  <div class="container">
+    <section id="about">
+      <div>
+        The Köster lab is located at the Institute of Human Genetics, University Hospital Essen, University of
+        Duisburg-Essen.
+        We are focused on reproducible data analysis, algorithm engineering and Bayesian statistics in Bioinformatics.
 
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Member</th>
-          <th>Position</th>
-        </tr>
-      </thead>
-      <tbody>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Member</th>
+              <th>Position</th>
+            </tr>
+          </thead>
+          <tbody>
 
-        <tr>
-          <th><a href="https://johanneskoester.bitbucket.io">Johannes Köster</a></th>
-          <td>Group leader</th>
-        </tr>
-        <tr>
-          <th>Jan Forster</th>
-          <td>Phd student</td>
-        </tr>
-	      <tr>
-	        <th>David Lähnemann</th>
-          <td>PhD student</td>
-	      </tr>
-        <tr>
-          <th><a href="https://henningtimm.gitlab.io/">Henning Timm</a></th>
-          <td>PhD student</td>
-        </tr>
-        <tr>
-          <th><a href="https://genomeinformatics.uni-due.de/people/bianca-stocker">Bianca Stöcker</a></th>
-          <td>PhD student</th>
-        </tr>
-        <tr>
-	        <th>Felix Mölder</th>
-          <td>PhD student</th>
-        </tr>
+            <tr>
+              <th><a href="https://johanneskoester.bitbucket.io">Johannes Köster</a></th>
+              <td>Group leader</th>
+            </tr>
+            <tr>
+              <th>Jan Forster</th>
+              <td>Phd student</td>
+            </tr>
+            <tr>
+              <th>David Lähnemann</th>
+              <td>PhD student</td>
+            </tr>
+            <tr>
+              <th><a href="https://henningtimm.gitlab.io/">Henning Timm</a></th>
+              <td>PhD student</td>
+            </tr>
+            <tr>
+              <th><a href="https://genomeinformatics.uni-due.de/people/bianca-stocker">Bianca Stöcker</a></th>
+              <td>PhD student</th>
+            </tr>
+            <tr>
+              <th>Felix Mölder</th>
+              <td>PhD student</th>
+            </tr>
 
-      </tbody>
-    </table>
+          </tbody>
+        </table>
 
-    <h3>News</h3>
-    <table class="table">
-    <tr>
-      <th>Date</th>
-      <th>News</th>
-    </tr>
-    <tr>
-      <td>2019-11-14</th>
-      <td>
-        We managed to acquire funding for the Bioconda project by the <a href="https://chanzuckerberg.com/newsroom/chan-zuckerberg-initiative-awards-5-million-for-open-source-software-projects-essential-to-science/">Chan Zuckerberg Initiative</a>! Bioconda was selected as one of 42 projects out of 293 submissions.
-      </td>
-    </tr>
+        <h3>News</h3>
+        <table class="table">
+          <tr>
+            <th>Date</th>
+            <th>News</th>
+          </tr>
+          <tr>
+            <td>2021-01-18</th>
+            <td>
+              Our paper "Sustainable data analysis with Snakemake" has been <a href="https://doi.org/10.12688/f1000research.29032.1">published in F1000</a>.
+              F1000 enables us to treat this as a "rolling paper", which will be updated whenever Snakemake receives a major new feature. 
+              Hence, this paper can be seen as an always up-to-date high-level overview of what Snakemake offers for reproducible, adaptable, and transparent data analysis.
+            </td>
+          </tr>
 
-    <tr>
-      <td>2019-09-24</th>
-      <td>Johannes has received the 
-        <a href="https://scheringstiftung.de/en/programm/lebenswissenschaften/nachwuchsfoerderung/friedmund-neumann-preis/friedmund-neumann-preis-2019">
-          Friedmund-Neumann-Prize 2019
-        </a> 
-        for extraordinary fundamental biomedical research from the Schering Foundation. 
-        Many thanks goes to Prof. Sven Rahmann (who has nominated Johannes), all colleagues, and 
-        the Snakemake, Bioconda, and Rust-Bio communities, without whom this would not have been possible.
-      </td>
-    </tr>
-    <tr>
-      <td>2019-03-21</th>
-      <td>Register here for our <a href="bsd2019.html">Snakemake tutorial in Boston in May 2019</a></td>
-    </tr>
-    <tr>
-      <td>2018-08-23</th>
-      <td>Our paper "A Bayesian model for single cell transcript expression analysis on MERFISH data" has been <a href="https://doi.org/10.1093/bioinformatics/bty718">published in Bioinformatics</a>!</td>
-    </tr>
-    <tr>
-      <td>2018-07-02</th>
-      <td>The Bioconda paper has been <a href="https://doi.org/10.1038/s41592-018-0046-7">published in Nature Methods</a>!</td>
-    </tr>
-    <tr>
-      <td>2017-11-03</th>
-      <td>The Bioconda project that has been founded by Johannes Köster in 2015 has been acknowledged by Nature. Nature technology editor Jeffrey Perkel has blogged about it <a href="http://blogs.nature.com/naturejobs/2017/11/03/techblog-bioconda-promises-to-ease-bioinformatics-software-installation-woes/">here</a>.</td>
-    </tr>
-    </table>
-</div>
-</section>
+          <tr>
+            <td>2020-04-28</th>
+            <td>
+              Our paper "Varlociraptor: enhancing sensitivity and controlling false discovery rate in somatic indel discovery" has been <a href="https://doi.org/10.1186/s13059-020-01993-6">published in Genome Biology</a>.
+              This is the first of multiple papers which will describe how Varlociraptor provides a unified statistical model for calling any kind of variant in any kind of scenario (single sample, population, tumors, pedigrees, combinations thereof) and species.
+            </td>
+          </tr>
 
-<section id="research">
-<h3>Research</h3>
+          <tr>
+            <td>2020-02-07</th>
+            <td>
+              Our review paper "Eleven grand challenges in single-cell data science" has been <a href="https://doi.org/10.1186/s13059-020-1926-6">published in Genome Biology</a>.
+              This work is the result of an inspiring workshop on single-cell data science with many leaders of the field that we organized at the Lorentz Center in 2018.
+            </td>
+          </tr>
 
-<section>
-<h4>Projects</h4>
-<table class="table">
-<tbody>
-<tr><th>Snakemake</th><td>
-<p>Snakemake is a popular workflow management system. Snakemake reduces the complexity of formalizing and executing data analyses by providing a fast and comfortable execution environment, together with a clean and modern Python-based specification language. Snakemake workflows scale from workstations to compute servers, clusters, the grid and the cloud without the need to adjust the workflow definition.</p>
-<p class="text-right"><a href="https://snakemake.bitbucket.io">visit homepage</a></p>
-</td></tr>
-<tr><th>Bioconda</th><td>
-<p>A distribution of bioinformatics software realized as a channel for the versatile package manager <a href="https://conda.pydata.org/docs">Conda</a>. Bioconda is a multinational project with hundreds of developers and thousands of software packages.</p>
-<p class="text-right"><a href="https://bioconda.github.io">visit homepage</a></p>
-</td></tr>
-<tr><th>MERFISHtools</th><td>
-<p>A Bayesian model for single-cell transcript (differential) expression analysis on <a href="https://science.sciencemag.org/content/early/2015/04/08/science.aaa6090.abstract">MERFISH</a> data.
-The model allows to overcome systematic biases occurring with MERFISH and provides measures of uncertainty
-and control of the false discovery rate in a strictly Bayesian way. MERFISHtools is a corresponding command
-line client and analysis library written in <a href="https://rust-lang.org">Rust</a> and <a href="https://python.org">Python</a>.
-MERFISHtools is also available via <a href="https://bioconda.github.io">Bioconda</a>.</p>
-<p class="text-right"><a href="https://merfishtools.github.io">visit homepage</a></p>
-</td></tr>
-<tr><th>Rust-Bio</th><td>
-<p>A bioinformatics library written in the <a href="https://rust-lang.org">Rust language</a>.
-The implementation provides state of the art solutions for common tasks in bioinformatics,
-focusing on stability by using comprehensive unit tests and continuous integration.</p>
-<p class="text-right"><a href="https://rust-bio.github.io">visit homepage</a></p>
-</td></tr>
-<tr><th>Protein Hypernetworks</th><td>
-<p>This project aims to model protein networks along with dependencies between interactions like allosteric effects, steric hindrance and competition on binding domains. This allows us to improve the accuracy of protein complex prediction and to simulate the effects of perturbations like knockout or over-expression.</p>
-</td></tr>
-</tbody>
-</table>
-</section>
+          <tr>
+            <td>2019-11-14</th>
+            <td>
+              We managed to acquire funding for the Bioconda project by the <a
+                href="https://chanzuckerberg.com/newsroom/chan-zuckerberg-initiative-awards-5-million-for-open-source-software-projects-essential-to-science/">Chan
+                Zuckerberg Initiative</a>! Bioconda was selected as one of 42 projects out of 293 submissions.
+            </td>
+          </tr>
 
+          <tr>
+            <td>2019-09-24</th>
+            <td>Johannes has received the
+              <a
+                href="https://scheringstiftung.de/en/programm/lebenswissenschaften/nachwuchsfoerderung/friedmund-neumann-preis/friedmund-neumann-preis-2019">
+                Friedmund-Neumann-Prize 2019
+              </a>
+              for extraordinary fundamental biomedical research from the Schering Foundation.
+              Many thanks goes to Prof. Sven Rahmann (who has nominated Johannes), all colleagues, and
+              the Snakemake, Bioconda, and Rust-Bio communities, without whom this would not have been possible.
+            </td>
+          </tr>
+          <tr>
+            <td>2019-03-21</th>
+            <td>Register here for our <a href="bsd2019.html">Snakemake tutorial in Boston in May 2019</a></td>
+          </tr>
+          <tr>
+            <td>2018-08-23</th>
+            <td>Our paper "A Bayesian model for single cell transcript expression analysis on MERFISH data" has been <a
+                href="https://doi.org/10.1093/bioinformatics/bty718">published in Bioinformatics</a>!</td>
+          </tr>
+          <tr>
+            <td>2018-07-02</th>
+            <td>The Bioconda paper has been <a href="https://doi.org/10.1038/s41592-018-0046-7">published in Nature
+                Methods</a>!</td>
+          </tr>
+          <tr>
+            <td>2017-11-03</th>
+            <td>The Bioconda project that has been founded by Johannes Köster in 2015 has been acknowledged by Nature.
+              Nature technology editor Jeffrey Perkel has blogged about it <a
+                href="http://blogs.nature.com/naturejobs/2017/11/03/techblog-bioconda-promises-to-ease-bioinformatics-software-installation-woes/">here</a>.
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
 
-<section id="contact">
-<h3>Contact</h3>
-<table class="table">
-<tbody>
-<tr><th>email</th><td><a href="mailto:johannes.koester@uni-due.de">johannes.koester@uni-due.de</a></td></tr>
-<tr><th>phone</th><td>+49 (0)201 723 1908</td></tr>
-<tr><th>www</th><td><a href="https://koesterlab.github.io">https://koesterlab.github.io</a></td></tr>
-<tr>
-    <th>office</th>
-    <td>
-        Room 1.13<br/>
-        University Hospital Essen<br/>
-        Virchowstr. 183<br/>
-        45147 Essen<br/>
-        <a href="https://goo.gl/maps/hz5D7dc2tD32">[Google Maps]</a>
-    </td>
-</tr>
-<tr>
-    <th>postal</th>
-    <td>
-        Algorithms for reproducible bioinformatics<br/>
-        Genome Informatics<br/>
-        Institute of Human Genetics<br/>
-        University of Duisburg-Essen<br/>
-        Hufelandstr. 55<br/>
-        45147 Essen<br/>
-        Germany
-    </td>
-</tr>
-</tbody>
-</table>
-</section>
+    <section id="research">
+      <h3>Research</h3>
 
-<section id="teaching">
-<h3>Teaching</h3>
-  <section id="fp-rust-2019">
-    <h4>Entwicklung einer Rust-Bibliothek am Beispiel von Wavelet Trees</h4>
-    <h5></h5>
-    <table class="table">
-      <tbody>
-        <tr><th>Art</th><td>Fachprojekt</td></tr>
-        <tr><th>Semester</th><td>SS 2019</td></tr>
-        <tr><th>Zeit</th><td>1.4.2019 - 12.7.2019, Freitag, 8h-12h (Anwesenheitspflicht)</td></tr>
-        <tr><th>Ort</th><td>OH12, Raum 3.033</td></tr>
-        <tr><th>Ablauf und Material</th><td>TBA</td></tr>
-        <tr><th>Kontakt</th><td><a href="mailto:johannes.koester@uni-due.de">johannes.koester@uni-due.de</a></td></tr>
-      </tbody>
-    </table>
-    <p>
-      Die Programmiersprache <a href="https://www.rust-lang.org">Rust</a> erfreut sich
-      in den letzten Jahren wachsender Beliebtheit. Neben tausenden
-      Open-Source-Projekten erfolgt die derzeit stattfindende schrittweise
-      Reimplementierung des Firefox-Browsers durch die Mozilla-Foundation in Rust. Des
-      weiteren wurde Rust drei Jahre in Folge zur <a
-      href="https://insights.stackoverflow.com/survey/2018">"most loved programming
-      language"</a> auf Stack Overflow gewählt. Ein Grund für diese Beliebtheit ist
-      der Compiler von Rust, der es erlaubt Thread- und Speichersicherheit zur
-      Kompilierzeit zu garantieren ohne Geschwindigkeitseinbußen hinnehmen zu müssen.
-      Dies ist realisiert indem Speicherallokationen und -zugriffe einem neuartigen
-      Konzept von "Ownership" und "Borrowing" unterworfen werden.
-    </p>
-
-    <p>
-      Ziel des Fachprojekts ist, mittels Rust eine robuste und schnelle
-      Implementierung von <a
-      href="https://users.dcc.uchile.cl/~gnavarro/ps/cpm12.pdf">Wavelet
-      Trees</a> als Programmierbibliothek zu realisieren. Wavelet Trees sind eine
-      Datenstruktur zur komprimierten Speicherung von Zeichenfolgen. Ursprünglich
-      wurden Wavelet Trees bei der Volltextindizierung eingesetzt. Seitdem haben
-      sich diverse andere Anwendungsgebiete ergeben. Sie können eingesetzt werden um
-      u.a. Graphen, Permutationen, Mengen, binäre Relationen und numerische Sequenzen
-      speichereffizient zu repräsentieren.
-    </p>
-
-    <p>
-      Die Aufgabe der Studenten ist, auf Basis von aktueller Literatur, eine allgemein
-      verwendbare, effiziente Implementierung von Wavelet Trees in Rust zu erstellen.
-      Zudem sollen Interfaces für verschiedene Anwendungsgebiete designt werden. Dabei
-      wird zum einen ein Einblick in ein neues theoretisches Feld, zum anderen in eine
-      vielversprechende neue Programmiersprache gewonnen. Des weiteren hat sich
-      gezeigt, dass die Beschäftigung mit den Konzepten von Rust hilft, ein besseres
-      Verständnis für wichtige technische Aspekte der Programmierung zu entwickeln.
-    </p>
-  </section
-  <section id="fp-snakemake-2018">
-    <h4>Reproduzierbare Datenanalyse mit Snakemake am Beispiel der Bioinformatik</h4>
-    <h5></h5>
-    <table class="table">
-      <tbody>
-        <tr><th>Art</th><td>Fachprojekt</td></tr>
-        <tr><th>Semester</th><td>WS 2018/2019</td></tr>
-        <tr><th>Zeit</th><td>08.10.2018 - 01.02.2019, Donnerstag, 14-18h (Anwesenheitspflicht)</td></tr>
-        <tr><th>Ort</th><td>OH12, Raum 3.033</td></tr>
-        <tr><th>Ablauf und Material</th><td><a href="https://github.com/koesterlab/fp-snakemake-2018/wiki">Wiki</a></td></tr>
-        <tr><th>Kontakt</th><td><a href="mailto:johannes.koester@uni-due.de">johannes.koester@uni-due.de</a></td></tr>
-      </tbody>
-    </table>
-    <p>
-      In der Bioinformatik, aber auch in vielen anderen Wissenschaftszweigen spielt
-      heutzutage die Analyse von großen Datenmengen eine wichtige Rolle.
-      Um reproduzierbare und verlässliche Ergebnisse zu erhalten müssen drei Dimensionen
-      beachtet werden.
-      Erstens bedarf es einer formalen Beschreibung einer Datenanalyse, welche
-      automatisiert ausführbar sein muss und dokumentiert aus welchen Schritten die
-      Analyse besteht und welche Parameter verwendet wurden.
-      Zweitens muss eine Datenanalyse skalierbar sein, dass heißt sie muss ohne Modifikation
-      gegebene Resourcen in unterschiedlichen Umgebungen (Workstation, Server,
-      Cluster, Grid, Cloud) effizient Nutzen können.
-      Drittens muss sie portierbar sein, dass heißt sie muss ohne großen Aufwand
-      auf einem neuen, nicht speziell vorbereiteten System lauffähig sein.
-    </p>
-
-    <p>
-      Mit <a href="https://snakemake.readthedocs.io">Snakemake</a> steht ein sehr erfolgreiches
-      System zur Verfügung welches alle drei oben genannten Anforderungen umsetzt.
-      Ziel des Fachprojekts ist, in Kleingruppen mit Hilfe von Snakemake Referenzimplementierungen
-      für typische Datenanalysen aus der Bioinformatik zu erstellen.
-      Dabei werden zusätzlich zu zentralen Datenanalyse-Paradigmen allgemeine
-      Fähigkeiten aus den Bereichen Linux-Kommandozeile, Python, R und Visualisierung
-      erlernt. Außerdem werden zentrale Themen der Bioinformatik aufgegriffen
-      und vertieft.
-    </p>
-  </section>
-  <section id="fp-rust-2018">
-    <h4>Entwicklung einer Rust-Bibliothek am Beispiel von Succinct Trees</h4>
-      <h5></h5>
-      <table class="table">
-        <tbody>
-          <tr><th>Art</th><td>Fachprojekt</td></tr>
-          <tr><th>Semester</th><td>SS 2018</td></tr>
-	  <tr><th>Zeit</th><td>09.04.2018 - 20.07.2018, Freitag 8-12h (Anwesenheitspflicht)</td></tr>
-          <tr><th>Ort</th><td>OH12, Raum 3.032, TU Dortmund</td></tr>
-	  <tr><th>Ablauf und Material</th><td><a href="https://github.com/koesterlab/fp-rust-succinct-trees/wiki">Wiki</a></td></tr>
-          <tr><th>Kontakt</th><td><a href="mailto:johannes.koester@uni-due.de">johannes.koester@uni-due.de</a></td></tr>
-        </tbody>
-      </table>
-      <p>
-        Die Programmiersprache <a href="https://www.rust-lang.org">Rust</a> erfreut sich
-        in den letzten Jahren wachsender Beliebtheit. Neben tausenden
-        Open-Source-Projekten erfolgt die derzeit stattfindende schrittweise
-        Reimplementierung des Firefox-Browsers durch die Mozilla-Foundation in Rust. Des
-        weiteren wurde Rust zwei Jahre in Folge zur <a
-        href="https://insights.stackoverflow.com/survey/2017">"most loved programming
-        language"</a> auf Stack Overflow gewählt. Ein Grund für diese Beliebtheit ist
-        der Compiler von Rust, der es erlaubt Thread- und Speichersicherheit zur
-        Kompilierzeit zu garantieren ohne Geschwindigkeitseinbußen hinnehmen zu müssen.
-        Dies ist realisiert indem Speicherallokationen und -zugriffe einem neuartigen
-        Konzept von "Ownership" und "Borrowing" unterworfen werden.
-      </p>
-
-      <p>
-        Ziel des Fachprojekts ist, mittels Rust eine robuste und schnelle
-        Implementierung von <a
-        href="https://dl.acm.org/citation.cfm?id=2790240">Succinct
-        Trees</a> als Programmierbibliothek zu realisieren. Durch die Verwendung von
-        Bitvektor-Techniken (Rank/Select) ermöglichen Succinct Trees die Repräsentation
-        von Bäumen mit n Knoten in 2n + o(n) Bits anstelle von O(n log n) Bits.
-        Des weiteren können diverse Baum-Operationen in konstanter Zeit ausgeführt
-        werden. Eine erfolgreiche Implementierung besäße zahlreiche
-        Anwendungsmöglichkeiten, insbesondere in Fällen wo eine herkömmliche
-        Baumrepräsentation nicht effizient genug oder zu groß wäre.
-      </p>
-
-      <p>
-        Es existieren mehrere alternative Repräsentationen von succinct trees, die je nach
-        Operation unterschiedliche Stärken und Schwächen haben. Die Aufgabe der
-        Studenten ist, mindestens eine Repräsentation zu implementieren. Dabei wird zum
-        einen ein Einblick in ein neues theoretisches Feld, zum anderen in eine
-        vielversprechende neue Programmiersprache gewonnen. Des weiteren hat sich
-        gezeigt, dass die Beschäftigung mit den Konzepten von Rust hilft, ein besseres
-        Verständnis für wichtige technische Aspekte der Programmierung zu entwickeln.
-      </p>
-  </section>
-</section>
-
-<section id="misc">
-</section>
+      <section>
+        <h4>Projects</h4>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Snakemake</th>
+              <td>
+                <p>Snakemake is a popular workflow management system. Snakemake reduces the complexity of formalizing
+                  and executing data analyses by providing a fast and comfortable execution environment, together with a
+                  clean and modern Python-based specification language. Snakemake workflows scale from workstations to
+                  compute servers, clusters, the grid and the cloud without the need to adjust the workflow definition.
+                </p>
+                <p class="text-right"><a href="https://snakemake.bitbucket.io">visit homepage</a></p>
+              </td>
+            </tr>
+            <tr>
+              <th>Bioconda</th>
+              <td>
+                <p>A distribution of bioinformatics software realized as a channel for the versatile package manager <a
+                    href="https://conda.pydata.org/docs">Conda</a>. Bioconda is a multinational project with hundreds of
+                  developers and thousands of software packages.</p>
+                <p class="text-right"><a href="https://bioconda.github.io">visit homepage</a></p>
+              </td>
+            </tr>
+            <tr>
+              <th>MERFISHtools</th>
+              <td>
+                <p>A Bayesian model for single-cell transcript (differential) expression analysis on <a
+                    href="https://science.sciencemag.org/content/early/2015/04/08/science.aaa6090.abstract">MERFISH</a>
+                  data.
+                  The model allows to overcome systematic biases occurring with MERFISH and provides measures of
+                  uncertainty
+                  and control of the false discovery rate in a strictly Bayesian way. MERFISHtools is a corresponding
+                  command
+                  line client and analysis library written in <a href="https://rust-lang.org">Rust</a> and <a
+                    href="https://python.org">Python</a>.
+                  MERFISHtools is also available via <a href="https://bioconda.github.io">Bioconda</a>.</p>
+                <p class="text-right"><a href="https://merfishtools.github.io">visit homepage</a></p>
+              </td>
+            </tr>
+            <tr>
+              <th>Rust-Bio</th>
+              <td>
+                <p>A bioinformatics library written in the <a href="https://rust-lang.org">Rust language</a>.
+                  The implementation provides state of the art solutions for common tasks in bioinformatics,
+                  focusing on stability by using comprehensive unit tests and continuous integration.</p>
+                <p class="text-right"><a href="https://rust-bio.github.io">visit homepage</a></p>
+              </td>
+            </tr>
+            <tr>
+              <th>Protein Hypernetworks</th>
+              <td>
+                <p>This project aims to model protein networks along with dependencies between interactions like
+                  allosteric effects, steric hindrance and competition on binding domains. This allows us to improve the
+                  accuracy of protein complex prediction and to simulate the effects of perturbations like knockout or
+                  over-expression.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
 
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+      <section id="contact">
+        <h3>Contact</h3>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>email</th>
+              <td><a href="mailto:johannes.koester@uni-due.de">johannes.koester@uni-due.de</a></td>
+            </tr>
+            <tr>
+              <th>phone</th>
+              <td>+49 (0)201 723 1908</td>
+            </tr>
+            <tr>
+              <th>www</th>
+              <td><a href="https://koesterlab.github.io">https://koesterlab.github.io</a></td>
+            </tr>
+            <tr>
+              <th>office</th>
+              <td>
+                Room 1.13<br />
+                University Hospital Essen<br />
+                Virchowstr. 183<br />
+                45147 Essen<br />
+                <a href="https://goo.gl/maps/hz5D7dc2tD32">[Google Maps]</a>
+              </td>
+            </tr>
+            <tr>
+              <th>postal</th>
+              <td>
+                Algorithms for reproducible bioinformatics<br />
+                Genome Informatics<br />
+                Institute of Human Genetics<br />
+                University of Duisburg-Essen<br />
+                Hufelandstr. 55<br />
+                45147 Essen<br />
+                Germany
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="teaching">
+        <h3>Teaching</h3>
+        <section id="fp-rust-2019">
+          <h4>Entwicklung einer Rust-Bibliothek am Beispiel von Wavelet Trees</h4>
+          <h5></h5>
+          <table class="table">
+            <tbody>
+              <tr>
+                <th>Art</th>
+                <td>Fachprojekt</td>
+              </tr>
+              <tr>
+                <th>Semester</th>
+                <td>SS 2019</td>
+              </tr>
+              <tr>
+                <th>Zeit</th>
+                <td>1.4.2019 - 12.7.2019, Freitag, 8h-12h (Anwesenheitspflicht)</td>
+              </tr>
+              <tr>
+                <th>Ort</th>
+                <td>OH12, Raum 3.033</td>
+              </tr>
+              <tr>
+                <th>Ablauf und Material</th>
+                <td>TBA</td>
+              </tr>
+              <tr>
+                <th>Kontakt</th>
+                <td><a href="mailto:johannes.koester@uni-due.de">johannes.koester@uni-due.de</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Die Programmiersprache <a href="https://www.rust-lang.org">Rust</a> erfreut sich
+            in den letzten Jahren wachsender Beliebtheit. Neben tausenden
+            Open-Source-Projekten erfolgt die derzeit stattfindende schrittweise
+            Reimplementierung des Firefox-Browsers durch die Mozilla-Foundation in Rust. Des
+            weiteren wurde Rust drei Jahre in Folge zur <a href="https://insights.stackoverflow.com/survey/2018">"most
+              loved programming
+              language"</a> auf Stack Overflow gewählt. Ein Grund für diese Beliebtheit ist
+            der Compiler von Rust, der es erlaubt Thread- und Speichersicherheit zur
+            Kompilierzeit zu garantieren ohne Geschwindigkeitseinbußen hinnehmen zu müssen.
+            Dies ist realisiert indem Speicherallokationen und -zugriffe einem neuartigen
+            Konzept von "Ownership" und "Borrowing" unterworfen werden.
+          </p>
+
+          <p>
+            Ziel des Fachprojekts ist, mittels Rust eine robuste und schnelle
+            Implementierung von <a href="https://users.dcc.uchile.cl/~gnavarro/ps/cpm12.pdf">Wavelet
+              Trees</a> als Programmierbibliothek zu realisieren. Wavelet Trees sind eine
+            Datenstruktur zur komprimierten Speicherung von Zeichenfolgen. Ursprünglich
+            wurden Wavelet Trees bei der Volltextindizierung eingesetzt. Seitdem haben
+            sich diverse andere Anwendungsgebiete ergeben. Sie können eingesetzt werden um
+            u.a. Graphen, Permutationen, Mengen, binäre Relationen und numerische Sequenzen
+            speichereffizient zu repräsentieren.
+          </p>
+
+          <p>
+            Die Aufgabe der Studenten ist, auf Basis von aktueller Literatur, eine allgemein
+            verwendbare, effiziente Implementierung von Wavelet Trees in Rust zu erstellen.
+            Zudem sollen Interfaces für verschiedene Anwendungsgebiete designt werden. Dabei
+            wird zum einen ein Einblick in ein neues theoretisches Feld, zum anderen in eine
+            vielversprechende neue Programmiersprache gewonnen. Des weiteren hat sich
+            gezeigt, dass die Beschäftigung mit den Konzepten von Rust hilft, ein besseres
+            Verständnis für wichtige technische Aspekte der Programmierung zu entwickeln.
+          </p>
+        </section <section id="fp-snakemake-2018">
+        <h4>Reproduzierbare Datenanalyse mit Snakemake am Beispiel der Bioinformatik</h4>
+        <h5></h5>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Art</th>
+              <td>Fachprojekt</td>
+            </tr>
+            <tr>
+              <th>Semester</th>
+              <td>WS 2018/2019</td>
+            </tr>
+            <tr>
+              <th>Zeit</th>
+              <td>08.10.2018 - 01.02.2019, Donnerstag, 14-18h (Anwesenheitspflicht)</td>
+            </tr>
+            <tr>
+              <th>Ort</th>
+              <td>OH12, Raum 3.033</td>
+            </tr>
+            <tr>
+              <th>Ablauf und Material</th>
+              <td><a href="https://github.com/koesterlab/fp-snakemake-2018/wiki">Wiki</a></td>
+            </tr>
+            <tr>
+              <th>Kontakt</th>
+              <td><a href="mailto:johannes.koester@uni-due.de">johannes.koester@uni-due.de</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          In der Bioinformatik, aber auch in vielen anderen Wissenschaftszweigen spielt
+          heutzutage die Analyse von großen Datenmengen eine wichtige Rolle.
+          Um reproduzierbare und verlässliche Ergebnisse zu erhalten müssen drei Dimensionen
+          beachtet werden.
+          Erstens bedarf es einer formalen Beschreibung einer Datenanalyse, welche
+          automatisiert ausführbar sein muss und dokumentiert aus welchen Schritten die
+          Analyse besteht und welche Parameter verwendet wurden.
+          Zweitens muss eine Datenanalyse skalierbar sein, dass heißt sie muss ohne Modifikation
+          gegebene Resourcen in unterschiedlichen Umgebungen (Workstation, Server,
+          Cluster, Grid, Cloud) effizient Nutzen können.
+          Drittens muss sie portierbar sein, dass heißt sie muss ohne großen Aufwand
+          auf einem neuen, nicht speziell vorbereiteten System lauffähig sein.
+        </p>
+
+        <p>
+          Mit <a href="https://snakemake.readthedocs.io">Snakemake</a> steht ein sehr erfolgreiches
+          System zur Verfügung welches alle drei oben genannten Anforderungen umsetzt.
+          Ziel des Fachprojekts ist, in Kleingruppen mit Hilfe von Snakemake Referenzimplementierungen
+          für typische Datenanalysen aus der Bioinformatik zu erstellen.
+          Dabei werden zusätzlich zu zentralen Datenanalyse-Paradigmen allgemeine
+          Fähigkeiten aus den Bereichen Linux-Kommandozeile, Python, R und Visualisierung
+          erlernt. Außerdem werden zentrale Themen der Bioinformatik aufgegriffen
+          und vertieft.
+        </p>
+      </section>
+      <section id="fp-rust-2018">
+        <h4>Entwicklung einer Rust-Bibliothek am Beispiel von Succinct Trees</h4>
+        <h5></h5>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Art</th>
+              <td>Fachprojekt</td>
+            </tr>
+            <tr>
+              <th>Semester</th>
+              <td>SS 2018</td>
+            </tr>
+            <tr>
+              <th>Zeit</th>
+              <td>09.04.2018 - 20.07.2018, Freitag 8-12h (Anwesenheitspflicht)</td>
+            </tr>
+            <tr>
+              <th>Ort</th>
+              <td>OH12, Raum 3.032, TU Dortmund</td>
+            </tr>
+            <tr>
+              <th>Ablauf und Material</th>
+              <td><a href="https://github.com/koesterlab/fp-rust-succinct-trees/wiki">Wiki</a></td>
+            </tr>
+            <tr>
+              <th>Kontakt</th>
+              <td><a href="mailto:johannes.koester@uni-due.de">johannes.koester@uni-due.de</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Die Programmiersprache <a href="https://www.rust-lang.org">Rust</a> erfreut sich
+          in den letzten Jahren wachsender Beliebtheit. Neben tausenden
+          Open-Source-Projekten erfolgt die derzeit stattfindende schrittweise
+          Reimplementierung des Firefox-Browsers durch die Mozilla-Foundation in Rust. Des
+          weiteren wurde Rust zwei Jahre in Folge zur <a href="https://insights.stackoverflow.com/survey/2017">"most
+            loved programming
+            language"</a> auf Stack Overflow gewählt. Ein Grund für diese Beliebtheit ist
+          der Compiler von Rust, der es erlaubt Thread- und Speichersicherheit zur
+          Kompilierzeit zu garantieren ohne Geschwindigkeitseinbußen hinnehmen zu müssen.
+          Dies ist realisiert indem Speicherallokationen und -zugriffe einem neuartigen
+          Konzept von "Ownership" und "Borrowing" unterworfen werden.
+        </p>
+
+        <p>
+          Ziel des Fachprojekts ist, mittels Rust eine robuste und schnelle
+          Implementierung von <a href="https://dl.acm.org/citation.cfm?id=2790240">Succinct
+            Trees</a> als Programmierbibliothek zu realisieren. Durch die Verwendung von
+          Bitvektor-Techniken (Rank/Select) ermöglichen Succinct Trees die Repräsentation
+          von Bäumen mit n Knoten in 2n + o(n) Bits anstelle von O(n log n) Bits.
+          Des weiteren können diverse Baum-Operationen in konstanter Zeit ausgeführt
+          werden. Eine erfolgreiche Implementierung besäße zahlreiche
+          Anwendungsmöglichkeiten, insbesondere in Fällen wo eine herkömmliche
+          Baumrepräsentation nicht effizient genug oder zu groß wäre.
+        </p>
+
+        <p>
+          Es existieren mehrere alternative Repräsentationen von succinct trees, die je nach
+          Operation unterschiedliche Stärken und Schwächen haben. Die Aufgabe der
+          Studenten ist, mindestens eine Repräsentation zu implementieren. Dabei wird zum
+          einen ein Einblick in ein neues theoretisches Feld, zum anderen in eine
+          vielversprechende neue Programmiersprache gewonnen. Des weiteren hat sich
+          gezeigt, dass die Beschäftigung mit den Konzepten von Rust hilft, ein besseres
+          Verständnis für wichtige technische Aspekte der Programmierung zu entwickeln.
+        </p>
+      </section>
+    </section>
+
+    <section id="misc">
+    </section>
+
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
