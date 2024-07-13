@@ -36,11 +36,6 @@ h3 {
     border-top: none;
 }
 
-#imgme {
-    float: right;
-    margin-left: 20px;
-}
-
 a.hiddenlink {
     color: #333;
 }
@@ -74,4 +69,10 @@ a:hover {
   margin-top: -75px;
   height: 75px;
   visibility: hidden;
+}
+
+#imgme {
+    width: 140px;
+    float: right;
+    margin-left: 20px;
 }
