@@ -40,7 +40,7 @@ jobs:
 
       - name: Build aux content
         run: |
-          python .github/workflows/build_aux_content.py
+          python .github/workflows/src/build_aux_content.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
