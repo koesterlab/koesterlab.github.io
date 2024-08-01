@@ -6,7 +6,7 @@ import shutil
 aux_content = yaml.safe_load(open(Path(__file__).parent / "aux_content.yml"))
 
 for repo in aux_content:
-    repo_name = Path(repo).basename()
+    repo_name = Path(repo).name
     repo_dir: Path = Path("build") / repo_name
     repo_dir.mkdir(parents=True, exist_ok=True)
     sp.call(["git", "clone", f"https://github.com/{repo}", repo_dir], check=True)
