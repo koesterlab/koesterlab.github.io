@@ -9,9 +9,9 @@ for repo in aux_content:
     repo_name = Path(repo).name
     repo_dir: Path = Path("build") / repo_name
     repo_dir.mkdir(parents=True, exist_ok=True)
-    sp.call(["git", "clone", f"https://github.com/{repo}", repo_dir], check=True)
+    sp.run(["git", "clone", f"https://github.com/{repo}", repo_dir], check=True)
 
-    sp.call(["pixi", "run", "build"], check=True, cwd=repo_dir)
+    sp.run(["pixi", "run", "build"], check=True, cwd=repo_dir)
     teaching_dir = Path("src/teaching")
     teaching_dir.mkdir(parents=True, exist_ok=True)
     shutil.copytree(
