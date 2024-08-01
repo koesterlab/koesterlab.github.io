@@ -36,6 +36,7 @@ jobs:
         with:
           pixi-version: v0.26.1
           cache: false
+          run-install: false
 
       - name: Build aux content
         run: |
