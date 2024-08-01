@@ -13,6 +13,8 @@ for repo in aux_content:
     Repo.clone_from(f"https://github.com/{repo}", repo_dir)
 
     sp.call(["pixi", "run", "build"], check=True, cwd=repo_dir)
+    teaching_dir = Path("src/teaching")
+    teaching_dir.mkdir(parents=True, exist_ok=True)
     shutil.copytree(
-        repo_dir / "build/html", Path("src/teaching") / repo_name, dirs_exist_ok=True
+        repo_dir / "build/html", teaching_dir / repo_name, dirs_exist_ok=True
     )
