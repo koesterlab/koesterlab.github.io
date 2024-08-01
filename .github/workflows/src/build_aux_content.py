@@ -3,7 +3,7 @@ import yaml
 import subprocess as sp
 import shutil
 
-aux_content = yaml.safe_load(open(Path(__file__) / "aux_content.yml"))
+aux_content = yaml.safe_load(open(Path(__file__).parent / "aux_content.yml"))
 
 for repo in aux_content:
     repo_name = Path(repo).basename()
