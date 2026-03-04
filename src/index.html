@@ -483,7 +483,9 @@
                 }
                 let cdf_plot_data = await cdf_data_resp.json();
                 for (package in ["varlociraptor", "snakemake", "orthanq"]) {
-                    const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`)
+                    const url = `https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`;
+                    console.log(url);
+                    const point_data_resp = await fetch(url)
                     if (!point_data_resp.ok) {
                         throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                     }
