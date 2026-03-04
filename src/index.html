@@ -448,7 +448,7 @@
         window.onload = async function() {
 
             let cdf_spec = {
-              "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+              "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
               "description": "Package downloads over cdf of all packages.",
               "data": {"values": []},
               "width":"container",
@@ -484,7 +484,6 @@
                 let cdf_plot_data = await cdf_data_resp.json();
                 for (package of ["varlociraptor", "snakemake", "orthanq"]) {
                     const url = `https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`;
-                    console.log(url);
                     const point_data_resp = await fetch(url)
                     if (!point_data_resp.ok) {
                         throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
