@@ -488,7 +488,7 @@
                     if (!point_data_resp.ok) {
                         throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                     }
-                    const single_point = await point_data_resp.json().pop();
+                    const single_point = (await point_data_resp.json()).pop();
                     cdf_plot_data.push(single_point);
                 }
 
