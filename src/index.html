@@ -266,6 +266,8 @@
         <section id="research">
             <h3>Research</h3>
 
+            <div style="width: 100%" id="download_plot"></div>
+
             <section>
                 <h4>Projects</h4>
                 <table class="table">
@@ -439,6 +441,63 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/6.4.1/vega-lite.min.js" integrity="sha512-YR+HhmTzn3uI6txUYLROIPAr1yuQVjJ2djyDfq+ZWMwe4LgEXyiPPYn9LlQE9P2DwZSlwkO2NBOigBQBr7mk7g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/7.0.2/vega-embed.min.js" integrity="sha512-sN01iN/FB7CxcwWiE+BZUadk7T04QGhOJit1KBWJChZkdjvyxsS5tntVrMikgSYBIgvH+WH2ssKswk2e+aSQnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        window.onload = async function() {
+
+            let cdf_spec = {
+              "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+              "description": "Package downloads over cdf of all packages.",
+              "data": {"values": []},
+              "width":"container",
+              "layer": [
+                {
+                  "mark": "line",
+                  "encoding": {
+                    "x": {"field": "pos", "type": "quantitative", "scale": {"type": "log"}},
+                    "y": {"field": "count", "type": "quantitative",
+                      "title": "# of packages with less or equal x downloads"
+                    }
+                  }
+                },
+                {
+                  "mark": {"type": "circle"},
+                  "encoding": {
+                    "x": {"field": "downloads", "type": "quantitative", "scale": {"type": "log"}, "title": "downloads"},
+                    "y": {"field": "count", "type": "quantitative",
+                      "title": "# of packages with less or equal x downloads"
+                    },
+                    "color": {"field": "package", "type": "nominal"}
+                  }
+                }
+              ]
+            };
+
+            // Build cdf plot
+            try {
+                const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+                if (!cdf_data_resp.ok) {
+                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+                }
+                let cdf_plot_data = await cdf_data_resp.json();
+                for (package in ["varlociraptor", "snakemake", "orthanq"]) {
+                    const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`)
+                    if (!point_data_resp.ok) {
+                        throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+                    }
+                    const single_point = await point_data_resp.json();
+                    cdf_plot_data.push(single_point);
+                }
+
+                cdf_spec.data.values = cdf_plot_data;
+                vegaEmbed('#download_plot', cdf_spec);
+            } catch (err) {
+                console.error("An error occurred while building CDF plot: ", err)
+            }
+        }
+    </script>
 </body>
 
 </html>
