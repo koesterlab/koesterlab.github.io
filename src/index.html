@@ -452,6 +452,7 @@
               "description": "Package downloads over cdf of all packages.",
               "data": {"values": []},
               "width":"container",
+              "title": "bioconda downloads",
               "layer": [
                 {
                   "mark": {"type": "line", "color": "#111111"},
@@ -465,7 +466,7 @@
                 {
                   "mark": {"type": "circle", "size": 60, "opacity": 1.0, "tooltip": true},
                   "encoding": {
-                    "x": {"field": "downloads", "type": "quantitative", "scale": {"type": "log"}, "title": "bioconda downloads"},
+                    "x": {"field": "downloads", "type": "quantitative", "scale": {"type": "log"}, "title": null},
                     "y": {"field": "count", "type": "quantitative",
                       "title": "packages with ≤x downloads"
                     },
